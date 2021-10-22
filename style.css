@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 section {
     height: 500px;
     background-color: white;
@@ -32,4 +35,20 @@ ul {
 li {
     /* width: 200px; */
     text-decoration: none; /* get rid of underlining that comes with link  */
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.hero-text {
+    margin-left: 80px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px; /* Makes it look like a pill*/
+    background-color: coral;
+    text-align: center;
 }
