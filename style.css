@@ -47,8 +47,8 @@ h1 {
 
 .button {
     width: 200px;
-    height: 60px;
-    border-radius: 30px; /* Makes it look like a pill*/
+    height: 90px;
+    border-radius: 60px; /* Makes it look like a pill*/
     background-color: coral;
     text-align: center;
 }
