@@ -48,8 +48,16 @@ p {
     font-weight: 300;
 }
 
+.hero-area {
+    display: flex; /* Make it flexible for whatever height of browser i'm in  */
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
 .hero-text {
     margin-left: 80px;
+    margin-bottom: 200px; /* can change to what i see fit */
 }
 
 .button {
