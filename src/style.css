@@ -50,9 +50,9 @@ p {
 
 .hero-area {
     display: flex; /* Make it flexible for whatever height of browser i'm in  */
-    flex-direction: column;
     height: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-text {
@@ -79,4 +79,8 @@ p {
 .button:active {
     background-color: #a9a9a9;
     color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
 }
