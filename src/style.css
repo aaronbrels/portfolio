@@ -4,7 +4,7 @@ body {
 section {
     /* height: 500px; */
     background-color: white;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .hero {
@@ -95,6 +95,13 @@ p {
     padding: 80px;
 }
 
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
 h2 {
  font-size: 50px;
 }
@@ -112,7 +119,7 @@ h2 {
 .project-card {
     width: 300px;
     height: 500px;  
-    border: 1px solid black;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
 }
 
 .project-container {
