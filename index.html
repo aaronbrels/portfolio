@@ -18,16 +18,16 @@
     <nav>
         
         <ul>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
      <div class="hero-area"> <!--if I my name and job title to always be centered, this is how to do it -->
         <div class="hero-text">
             <h1>Aaron Brelsford</h1>
             <p>Front End Web Developer</p>
-            <div class="button">About Me</div>
+            <div class="button"><a href="#about-me">About Me</a></div>
         </div>
         <div class="socials">
             <!-- <div>Twitter</div> -->
@@ -43,7 +43,7 @@
     
 </section>
 <!-- Maybe pick a different class name for these sub sections -->
-<section class="sub-section">
+<section class="sub-section" id="about-me">
     <div class="information">
         <h2>About Me</h2>
         <p>Hello My Name is Aaron Brelsford. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -52,7 +52,7 @@
         <img class="headshot" src="" alt="Aaron Brelsford Photo">
     </div>
 </section>
-<section class="sub-section-alternative">
+<section class="sub-section-alternative" id="projects">
     <h2>Projects</h2>
     <div class="project-container"> <!--can have as many divs for as many projects I want to put here.-->
         <div class="project-card">
@@ -82,7 +82,10 @@
             <p class="subtext"><a class="project-link" href="">View Here</a></p>
     </div>
 </section>
-<footer></footer>
+<footer id="contact">
+    <h2>Contact Me</h2>
+    <!-- Check out the video to create a contact form -->
+</footer>
 
 
     <script src="src/main.js"></script>
