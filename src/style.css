@@ -136,6 +136,13 @@ h2 {
     justify-content: space-around;
 }
 
+@media only screen and (max-width:1000px) { /* If the user adjust their screen this will adjust the content so they are on top of each other???  */
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-image { /* might need to change this depending on my images */
     margin-top: 25px;
     width: 250px;
