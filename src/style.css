@@ -176,4 +176,9 @@ a {
         color: white;
         font-size: 30px;
     }
+
+    ul {
+    display: none;
+    }
+
 }
